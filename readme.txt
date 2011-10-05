@@ -15,7 +15,7 @@ Please note: The plugin requires the Genesis Theme Framework
 
 = Icon Sizes & Networks/Services =
 * Sizes included: 16px / 24px / 32px
-* Networks/Services included: Email / RSS Feed / Facebook / Twitter / Google Plus / Flickr / YouTube / LinkedIn / Xing / GitHub
+* Networks/Services included: Email / RSS/ATOM Feed / Facebook / Twitter / Google Plus / Flickr / YouTube / LinkedIn / Xing / GitHub
 
 = Possible Locations / Areas for the Icons =
 * Main Navigation - Primary Nav
@@ -103,8 +103,8 @@ Just released into the wild.
 * 32px
 
 == Networks/Services ==
-* E-Mail (letter icon)
-* RSS Feed (orange feed icon)
+* Email (envelope icon)
+* RSS/ATOM Feed (orange feed icon)
 * Social: Facebook / Twitter / Google Plus / Flickr / YouTube
 * Business networks: LinkedIn / Xing
 * Developer/Coding: GitHub
