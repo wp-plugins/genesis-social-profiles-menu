@@ -9,9 +9,7 @@ Stable tag: 1.0
 This plugin adds a stylesheet for social profile icons for the WordPress custom menu - recommended for the use with Genesis Framework child themes.
 
 == Description ==
-This small and leightweight plugin is intended for the use with the popular Genesis Framework. It adds a special stylesheet for social profile icons for the WordPress custom menu system. The menu system is connected with the (Genesis) menu locations and also with widget areas because WordPress comes with a built-in custom menu widget. This way you can assign social profiles to a lot of locations on your site and easily add your own links, change sorting, change size, tooltips and opening in a new window/tab. So you have a lot of advantages over lots of other social profiles widget plugins around... As soon as you're figured out to add the CSS classes it's really easy, fast and flexible :-).
-
-For most use cases and regular Genesis Child Themes this should work really fine. (Read the FAQ if you need some more custom print stylesheet.)
+This small and leightweight plugin is intended for the use with the popular Genesis Framework. It adds a special stylesheet for social profile icons for the WordPress custom menu system. The menu system is connected with the (Genesis) menu locations and also with widget areas because WordPress comes with a built-in custom menu widget. This way you can assign social profiles to a lot of locations on your site and easily add your own links, change sorting, change size, tooltips and opening in a new window/tab. So you have a lot of advantages over lots of other social profiles widget plugins around... As soon as you're figured out to add the CSS classes it's really easy, fast and flexible :-). For most use cases and regular Genesis Child Themes this should work really fine.
 
 Please note: The plugin requires the Genesis Theme Framework
 
