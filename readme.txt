@@ -44,7 +44,7 @@ Icon set by Paul Robert Lloyd, http://paulrobertlloyd.com/2009/06/social_media_i
 1. Upload `genesis-social-profiles-menu` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Set up a custom menu in WordPress: Appearance > Menu -- or: edit/enhance an existing menu -- just add custom links to your desired services
-4. Add the proper CSS classes to these custom links
+4. Add the proper CSS classes to these custom links (before this: activate the check boxes for "Custom Links", "Link Target" and "CSS Classes" via the"Screen Options" tab in right top corner below toolbar! [direct link to large view screenshot...](http://s.wordpress.org/extend/plugins/genesis-social-profiles-menu/screenshot-1.png))
 5. Save menu to the desired menu location or use the WordPress widget for custom menu to place your profiles in any menu location or widget area
 
 = Scheme for the CSS Classes =
@@ -75,22 +75,27 @@ Home Blog About [Twitter Icon] [Facebook]
 Left & Right classes add 20px space each and Top & Bottom classes 7px each -- please note: these values could all be overwritten via your style.css of the theme/child theme when you add `!important` to the css rule.
 
 == Frequently Asked Questions ==
+= How Do I Actually Add These Special CSS Classes and Where? =
+Just go to the "Menus" settings page in WordPress, then click the "Sreen Options" tab in the top right corner (below the toolbar) and there just activate the check boxes for "Custom Links", "Link Target" and "CSS Classes". After that you have access to the appropriate fields/drop downs for each and every menu items you'll add or edit. (This is then for ALL menu items not only for the social ones you might add... :)
+-> Just see the first sreenshot at the ["Screenshots"](http://wordpress.org/extend/plugins/genesis-social-profiles-menu/screenshots/) page here -- [direct link to large view screenshot...](http://s.wordpress.org/extend/plugins/genesis-social-profiles-menu/screenshot-1.png)
+
 = Could I use this plugin also with another theme/framework? =
 Good question but unfortunately this is no possible and not recommended. I've built in a theme check function so it's only useable with the Genesis Framework and its child themes. The reason for that is simple because the icons stylesheet references a lot of unique Genesis CSS IDs and classes so it will be nearly unuseable with other themes. However, you might have a look at the included stylesheet and maybe got inspired for your own stylesheet for your custom theme or even doing your own plugin with this...
 
 == Screenshots ==
-1. Contextual help tab open - section added to bottom of existing help area
-2. Creating a new menu in WordPress
-3. Adding CSS class to social profile menu item
-4. The custom menu added to Secondary Menu location in Genesis (shown here with [free Autobahn child theme](http://genesisthemes.de/en/genesis-child-themes/autobahn/))
-5. The custom menu added to Header Widget Right are - as a custom menu widget (shown here with [free Autobahn child theme](http://genesisthemes.de/en/genesis-child-themes/autobahn/))
+1. Activate the check boxes for "Link Target" and "CSS Classes" via the "Screen Options" tab on the "Menus" settings page in WordPress.
+2. Contextual help tab open - section added to bottom of existing help area
+3. Creating a new menu in WordPress
+4. Adding CSS class to social profile menu item
+5. The custom menu added to Secondary Menu location in Genesis (shown here with [free Autobahn child theme](http://genesisthemes.de/en/genesis-child-themes/autobahn/))
+6. The custom menu added to Header Widget Right are - as a custom menu widget (shown here with [free Autobahn child theme](http://genesisthemes.de/en/genesis-child-themes/autobahn/))
 
 == Changelog ==
 
 = 1.1 =
 * Fixed possible enqueue issue with stylesheet: replaced deprecated hook with new standard.
 * Added two more helper classes for more space if needed: `space-top` and `space-bottom` - by user request :)
-* Updated readme.txt file documentation.
+* Updated readme.txt file documentation and screenshots.
 * Updated German translations and also the .pot file for all translators!
 * Tested & proved compatibility with WordPress 3.3 final release :-)
 
@@ -101,7 +106,7 @@ Good question but unfortunately this is no possible and not recommended. I've bu
 If you have a cache plugin running in WordPress, it's recommended to delete/ clear the cache just after upgrading the plugin.
 
 = 1.1 =
-Important change: improved compatibility with WordPress 3.3+. Added two new helper classes for more space on the top or bottom if needed. Also updated readme.txt file, German translations and .pot file for translators.
+Important change: improved compatibility with WordPress 3.3+. Added two new helper classes for more space on the top or bottom if needed. Also updated readme.txt file, screenshots, German translations and .pot file for translators.
 
 = 1.0 =
 Just released into the wild.
