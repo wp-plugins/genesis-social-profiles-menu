@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Genesis Social Profiles Menu Plugin\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/genesis-social-profiles-menu?forum_id=10\n"
 "POT-Creation-Date: 2011-10-05 21:50+0100\n"
-"PO-Revision-Date: 2011-10-05 22:31+0100\n"
+"PO-Revision-Date: 2011-12-14 13:51+0100\n"
 "Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
 "Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
 "MIME-Version: 1.0\n"
@@ -46,8 +46,8 @@ msgstr "http://deckerweb.de/"
 #@ genesis-social-profiles-menu
 #. translators: plugin header field 'Version'
 #: genesis-social-profiles-menu.php:0
-msgid "1.0"
-msgstr "1.0"
+msgid "1.1"
+msgstr "1.1"
 
 #@ genesis-social-profiles-menu
 #: genesis-social-profiles-menu.php:62

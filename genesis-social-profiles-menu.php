@@ -9,7 +9,7 @@
  * Plugin Name: Genesis Social Profiles Menu
  * Plugin URI: http://genesisthemes.de/en/wp-plugins/genesis-social-profiles-menu/
  * Description: This plugin adds a stylesheet for social profile icons for the WordPress custom menu - recommended for the use with Genesis Framework child themes.
- * Version: 1.0
+ * Version: 1.1
  * Author: David Decker - DECKERWEB
  * Author URI: http://deckerweb.de/
  * License: GPLv2
@@ -96,15 +96,16 @@ function ddw_gspm_truncate( $str, $length=10 ) {
 }
 
 
-add_action( 'wp_print_styles', 'ddw_gspm_styles' );
+add_action( 'wp_enqueue_scripts', 'ddw_gspm_styles' );
 /**
  * Enqueue social profiles menu style sheet
  * 
  * @since 1.0
+ * @version 1.1
  */
 function ddw_gspm_styles() {
 
-	wp_enqueue_style( 'genesis-social-profiles-menu', plugins_url( 'css/gspm-styles.css', __FILE__ ), false, '1.0', 'all' );
+	wp_enqueue_style( 'genesis-social-profiles-menu', plugins_url( 'css/gspm-styles.css', __FILE__ ), false, '1.1', 'all' );
 
 }
 

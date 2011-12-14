@@ -2,9 +2,9 @@
 Contributors: daveshine
 Donate link: http://genesisthemes.de/en/donate/
 Tags: genesis, genesiswp, genesis framework, social media, social networking, social profiles, social, icons, twitter, facebook, google plus, deckerweb
-Requires at least: 3.0
-Tested up to: 3.3-aortic-dissection
-Stable tag: 1.0
+Requires at least: 3.2
+Tested up to: 3.3
+Stable tag: 1.1
 
 This plugin adds a stylesheet for social profile icons for the WordPress custom menu - recommended for the use with Genesis Framework child themes.
 
@@ -15,7 +15,7 @@ Please note: The plugin requires the Genesis Theme Framework
 
 = Icon Sizes & Networks/Services =
 * Sizes included: 16px / 24px / 32px
-* Networks/Services included: Email / RSS/ATOM Feed / Facebook / Twitter / Google Plus / Flickr / YouTube / LinkedIn / Xing / GitHub
+* Networks/Services included: Email / RSS Feed / Facebook / Twitter / Google Plus / Flickr / YouTube / LinkedIn / Xing / GitHub
 
 = Possible Locations / Areas for the Icons =
 * Main Navigation - Primary Nav
@@ -34,7 +34,7 @@ Please note: The plugin requires the Genesis Theme Framework
 Licenced under an Attribution-Share Alike 2.0 UK: England & Wales Licence. We claim no right of ownership to the company logos used in these icons. Provision of these icons does not reflect endorsement of individual services. // To view a copy of this license, visit: http://creativecommons.org/licenses/by-sa/2.0/uk/
 Icon set by Paul Robert Lloyd, http://paulrobertlloyd.com/2009/06/social_media_icons/
 
-**[A plugin from deckerweb.de and GenesisThemes](http://genesisthemes.de/en/)**
+[A plugin from deckerweb.de and GenesisThemes](http://genesisthemes.de/en/)
 
 * [*GenesisFinder* - Find then create. Your Genesis Framework Search Engine.](http://genesisfinder.com/)
 * Please support me by [following on Twitter](http://twitter.com/#!/deckerweb) and [my Facebook page](http://www.facebook.com/deckerweb.service) - Thank you! ;-)
@@ -68,9 +68,11 @@ Example: twitter-prl-s16
 * GitHub: github-prl-s16 / github-prl-s24 / github-prl-s32
 
 = Helper CSS Classes to Add Some More Space :) =
-There are also two helper classes included: `space-left` and `space-right` -- when using social items as an addition in a regular menu you might want to add some more space to have a better looking menu. Just an example, your menu goes like this:
+There are also four helper classes included: `space-left` and `space-right` plus `space-top` and `space-bottom` -- when using social items as an addition in a regular menu you might want to add some more space to have a better looking menu. Just an example, your menu goes like this:
 Home Blog About [Twitter Icon] [Facebook]
--> You might add the space class to the [Twitter Icon] like so: `twitter-prl-s24 space-left` -- please note: no dots no commas are used here, only the classes separated by one space!
+-> You might add the space class to the [Twitter Icon] like so: `twitter-prl-s24 space-left` -- please note: no dots and no commas are used here, only the classes separated by one space!
+
+Left & Right classes add 20px space each and Top & Bottom classes 7px each -- please note: these values could all be overwritten via your style.css of the theme/child theme when you add `!important` to the css rule.
 
 == Frequently Asked Questions ==
 = Could I use this plugin also with another theme/framework? =
@@ -84,11 +86,21 @@ Good question but unfortunately this is no possible and not recommended. I've bu
 5. The custom menu added to Header Widget Right are - as a custom menu widget (shown here with [free Autobahn child theme](http://genesisthemes.de/en/genesis-child-themes/autobahn/))
 
 == Changelog ==
+= 1.1 =
+* Fixed possible enqueue issue with stylesheet: replaced deprecated hook with new standard.
+* Added two more helper classes for more space if needed: `space-top` and `space-bottom` - by user request :)
+* Updated readme.txt file documentation.
+* Updated German translations and also the .pot file for all translators!
+* Tested & proved compatibility with WordPress 3.3 final release :-)
+
 = 1.0 =
 * Initial release
 
 == Upgrade Notice ==
 If you have a cache plugin running in WordPress, it's recommended to delete/ clear the cache just after upgrading the plugin.
+
+= 1.1 =
+Important change: improved compatibility with WordPress 3.3+. Added two new helper classes for more space on the top or bottom if needed. Also updated readme.txt file, German translations and .pot file for translators.
 
 = 1.0 =
 Just released into the wild.
@@ -103,8 +115,8 @@ Just released into the wild.
 * 32px
 
 == Networks/Services ==
-* Email (envelope icon)
-* RSS/ATOM Feed (orange feed icon)
+* E-Mail (letter icon)
+* RSS Feed (orange feed icon)
 * Social: Facebook / Twitter / Google Plus / Flickr / YouTube
 * Business networks: LinkedIn / Xing
 * Developer/Coding: GitHub

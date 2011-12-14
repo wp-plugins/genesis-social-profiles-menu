@@ -4,7 +4,7 @@
  * @author	David Decker
  *
  * @since	1.0
- * @version	1.0
+ * @version	1.1
  *
  * @copyright	Copyright 2011, David Decker - DECKERWEB
  * @license	GPLv2
@@ -799,18 +799,33 @@ body.gspm .widget-area ul.menu {
 /* Universal Space Classes for Nav, Subnav, Header Menu
 ------------------------------------------------------------ */
 
+/* More Space Left */
 #nav .space-left,
 #subnav .space-left,
 #header ul.menu .space-left {
 	margin: 0 10px 0 20px;
 }
 
+/* More Space Right */
 #nav .space-right,
 #subnav .space-right,
 #header ul.menu .space-right {
 	margin: 0 20px 0 10px;
 }
 
+/* More Space Top */
+#nav .space-top,
+#subnav .space-top,
+#header ul.menu .space-top {
+	margin-top: 7px;
+}
+
+/* More Space Bottom */
+#nav .space-bottom,
+#subnav .space-bottom,
+#header ul.menu .space-bottom {
+	margin-bottom: 7px;
+}
 
 .widget_nav_menu .widget-area ul,
 #footer-widgets .widget_nav_menu ul li {

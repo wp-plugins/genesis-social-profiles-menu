@@ -40,8 +40,8 @@ msgstr ""
 #. translators: plugin header field 'Version'
 #: genesis-social-profiles-menu.php:0
 #@ genesis-social-profiles-menu
-msgid "1.0"
-msgstr "1.0"
+msgid "1.1"
+msgstr ""
 
 #: genesis-social-profiles-menu.php:62
 #, php-format
