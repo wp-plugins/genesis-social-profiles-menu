@@ -88,7 +88,7 @@ Good question but unfortunately this is no possible and not recommended. I've bu
 3. Creating a new menu in WordPress
 4. Adding CSS class to social profile menu item
 5. The custom menu added to Secondary Menu location in Genesis (shown here with [free Autobahn child theme](http://genesisthemes.de/en/genesis-child-themes/autobahn/))
-6. The custom menu added to Header Widget Right are - as a custom menu widget (shown here with [free Autobahn child theme](http://genesisthemes.de/en/genesis-child-themes/autobahn/))
+6. The custom menu added to Header Widget Right - as a custom menu widget (shown here with [free Autobahn child theme](http://genesisthemes.de/en/genesis-child-themes/autobahn/))
 
 == Changelog ==
 
