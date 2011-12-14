@@ -86,6 +86,7 @@ Good question but unfortunately this is no possible and not recommended. I've bu
 5. The custom menu added to Header Widget Right are - as a custom menu widget (shown here with [free Autobahn child theme](http://genesisthemes.de/en/genesis-child-themes/autobahn/))
 
 == Changelog ==
+
 = 1.1 =
 * Fixed possible enqueue issue with stylesheet: replaced deprecated hook with new standard.
 * Added two more helper classes for more space if needed: `space-top` and `space-bottom` - by user request :)
