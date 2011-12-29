@@ -36,9 +36,15 @@ Icon set by Paul Robert Lloyd, http://paulrobertlloyd.com/2009/06/social_media_i
 
 [A plugin from deckerweb.de and GenesisThemes](http://genesisthemes.de/en/)
 
-* [*GenesisFinder* - Find then create. Your Genesis Framework Search Engine.](http://genesisfinder.com/)
-* Please support me by [following on Twitter](http://twitter.com/#!/deckerweb) and [my Facebook page](http://www.facebook.com/deckerweb.service) - Thank you! ;-)
+= Feedback =
+* I am open for your suggestions and feedback - Thank you for using or trying out one of my plugins!
+* Drop me a line [@deckerweb](http://twitter.com/#!/deckerweb) on Twitter
+* Follow me on [my Facebook page](http://www.facebook.com/deckerweb.service)
+* Or follow me on [@David Decker](http://deckerweb.de/gplus) on Google Plus ;-)
+
+= More =
 * [Also see my other plugins](http://genesisthemes.de/en/wp-plugins/) or see [my WordPress.org profile page](http://profiles.wordpress.org/users/daveshine/)
+* Tip: [*GenesisFinder* - Find then create. Your Genesis Framework Search Engine.](http://genesisfinder.com/)
 
 == Installation ==
 1. Upload `genesis-social-profiles-menu` folder to the `/wp-content/plugins/` directory
@@ -50,10 +56,11 @@ Icon set by Paul Robert Lloyd, http://paulrobertlloyd.com/2009/06/social_media_i
 = Scheme for the CSS Classes =
 It always goes like this: (service)-(iconset)-(size)
 
-Example: twitter-prl-s16
--> you could also add the suffix "-s24" for 24px size or "-s32" for 32px size
--> change twitter to one of the 10 included services
--> "prl" stands for the used icon set - at the moment, there's only this one, maybe more sets following in the future...
+**Example: twitter-prl-s16**
+
+* you could also add the suffix "-s24" for 24px size or "-s32" for 32px size
+* change twitter to one of the 10 included services
+* "prl" stands for the used icon set - at the moment, there's only this one, maybe more sets following in the future...
 
 = Available CSS classes =
 * Email: email-prl-s16 / email-prl-s24 / email-prl-s32
@@ -103,8 +110,6 @@ Good question but unfortunately this is no possible and not recommended. I've bu
 * Initial release
 
 == Upgrade Notice ==
-If you have a cache plugin running in WordPress, it's recommended to delete/ clear the cache just after upgrading the plugin.
-
 = 1.1 =
 Important change: improved compatibility with WordPress 3.3+. Added two new helper classes for more space on the top or bottom if needed. Also updated readme.txt file, screenshots, German translations and .pot file for translators.
 
@@ -114,6 +119,8 @@ Just released into the wild.
 == Translations ==
 * English - default, always included
 * German: Deutsch - immer dabei! [Download auch via deckerweb.de](http://deckerweb.de/material/sprachdateien/genesis-plugins/#genesis-social-profiles-menu)
+
+Note: All my plugins are localized/ translateable by default. This is very important for all users worldwide. So please contribute your language to the plugin to make it even more useful. For translating I recommend the awesome ["Codestyling Localization" plugin](http://wordpress.org/extend/plugins/codestyling-localization/) and for validating the ["Poedit Editor"](http://www.poedit.net/).
 
 == Icon Sizes ==
 * 16px
