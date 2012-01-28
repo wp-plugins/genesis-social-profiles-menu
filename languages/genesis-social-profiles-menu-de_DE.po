@@ -1,11 +1,16 @@
-# Copyright (C) 2011 Genesis Social Profiles Menu by David Decker of deckerweb.de
-# This file is distributed under the same license as the Genesis Social Profiles Menu package.
+# Copyright (C) 2011-2012 Genesis Social Profiles Menu by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the Genesis Social Profiles Menu plugin package.
+#
+# Weitere deutsche Sprachdateien fuer Genesis Framework, Genesis Child Themes und Genesis Plugins
+# sowie WordPress Plugins und Themes sind hier zu finden:
+# --> http://deckerweb.de/sprachdateien/
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Genesis Social Profiles Menu Plugin\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/genesis-social-profiles-menu?forum_id=10\n"
 "POT-Creation-Date: 2011-10-05 21:50+0100\n"
-"PO-Revision-Date: 2011-12-14 13:51+0100\n"
+"PO-Revision-Date: 2012-01-28 12:48+0100\n"
 "Last-Translator: David Decker <deckerweb.mobil@googlemail.com>\n"
 "Language-Team: DECKERWEB <deckerweb.mobil@googlemail.com>\n"
 "MIME-Version: 1.0\n"
@@ -46,8 +51,8 @@ msgstr "http://deckerweb.de/"
 #@ genesis-social-profiles-menu
 #. translators: plugin header field 'Version'
 #: genesis-social-profiles-menu.php:0
-msgid "1.1"
-msgstr "1.1"
+msgid "1.2"
+msgstr "1.2"
 
 #@ genesis-social-profiles-menu
 #: genesis-social-profiles-menu.php:62

@@ -1,4 +1,4 @@
-/* Icons License
+/* PRL Icons License (Paul Robert Lloyd)
 ------------------------------------------------------------ */
 
 TERMS OF USE:

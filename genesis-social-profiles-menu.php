@@ -3,13 +3,15 @@
  * Main plugin file. This plugin adds a stylesheet for social profile icons for the WordPress custom menu - recommended for the use
  * with Genesis Framework child themes.
  *
- * @package GenesisSocialProfilesMenu
- * @author David Decker
+ * @package   Genesis Social Profiles Menu
+ * @author    David Decker
+ * @link      http://twitter.com/#!/deckerweb
+ * @copyright Copyright 2011-2012, David Decker - DECKERWEB
  *
  * Plugin Name: Genesis Social Profiles Menu
  * Plugin URI: http://genesisthemes.de/en/wp-plugins/genesis-social-profiles-menu/
  * Description: This plugin adds a stylesheet for social profile icons for the WordPress custom menu - recommended for the use with Genesis Framework child themes.
- * Version: 1.1
+ * Version: 1.2
  * Author: David Decker - DECKERWEB
  * Author URI: http://deckerweb.de/
  * License: GPLv2
@@ -21,7 +23,9 @@
  * Setting constants
  *
  * @since 1.0
+ * @version 1.1
  */
+define( 'GSPM_VERSION', '1.2' );
 define( 'GSPM_PLUGIN_DIR', dirname( __FILE__ ) );
 define( 'GSPM_PLUGIN_BASEDIR', dirname( plugin_basename( __FILE__ ) ) );
 
@@ -34,12 +38,17 @@ define( 'GSPM_PLUGIN_BASEDIR', dirname( plugin_basename( __FILE__ ) ) );
 define( 'GSPM_DOMAIN' , 'genesis-social-profiles-menu' );
 
 
+add_action( 'init', 'ddw_gspm_init' );
 /**
  * Load the text domain for translation of the plugin
  * 
  * @since 1.0
+ * @version 1.1
  */
-load_plugin_textdomain( 'genesis-social-profiles-menu', false, 'genesis-social-profiles-menu/languages' );
+function ddw_gspm_init() {
+
+	load_plugin_textdomain( 'genesis-social-profiles-menu', false, GSPM_PLUGIN_BASEDIR . '/languages' );
+}
 
 
 register_activation_hook( __FILE__, 'ddw_gspm_activation_check' );
@@ -105,7 +114,7 @@ add_action( 'wp_enqueue_scripts', 'ddw_gspm_styles' );
  */
 function ddw_gspm_styles() {
 
-	wp_enqueue_style( 'genesis-social-profiles-menu', plugins_url( 'css/gspm-styles.css', __FILE__ ), false, '1.1', 'all' );
+	wp_enqueue_style( 'genesis-social-profiles-menu', plugins_url( 'css/gspm-styles.css', __FILE__ ), false, GSPM_VERSION, 'all' );
 
 }
 
@@ -129,12 +138,14 @@ add_action( 'contextual_help', 'ddw_gspm_contextual_help', 10, 3 );
  * @since 1.0
  */
 function ddw_gspm_contextual_help( $contextual_help, $screen_id, $screen ) {
+
 	if ( strcmp($screen->base, 'nav-menus' ) == 0 ) {
  
 		$gspm_customized_help = $contextual_help . '<hr style="border: solid #ddd 1px; height: 1px; margin-top: 15px;" />' . sprintf( __( '<br /><p><strong>Plugin: Genesis Social Profiles Menu</strong> - %1$shttp://genesisthemes.de/en/wp-plugins/genesis-social-profiles-menu/%2$s<p>You can add social menu links/icons to your custom menu via a new custom link. Then you just add the proper css class and you are good to go.</p><p>These networks/services are available: Email, Facebook, RSS/ATOM Feed, Flickr, GitHub, Google Plus, LinkedIn, Twitter, Youtube, Xing.</p><p>Scheme for the css classes: <code>email-prl-s16</code> &mdash; "prl" just stands for the creator of the icon set (Paul Robert Loyd; maybe more sets follow later on and this the slug to set them apart...) and "s16" for the size (16x16 pixel in that case), you can also change this to "s24" (24x24 pixel) or "s32" (32x32 pixel).</p><p><em>Example:</em> if you want to add a twitter icon with a 24x24 pixel size to the menu, then just add the following css class to the menu: <code>twitter-prl-s24</code> &mdash; Got it? It is that easy ;-)</p><p><em>Credit where credit is due:</em> Icon set by Paul Robert Loyd, License: %3$sAttribution-Share Alike 2.0 UK: England & Wales Licence%4$s, %5$sdownload/website%6$s', GSPM_DOMAIN ), '<a href="', '" target="_new">Info</a></p>', '<a href="http://creativecommons.org/licenses/by-sa/2.0/uk/" target="_new" title="Attribution-Share Alike 2.0 UK: England & Wales Licence ...">', '</a>', '<a href="http://paulrobertlloyd.com/2009/06/social_media_icons/" target="_new">', '</a></p>' );
 		
 		return $gspm_customized_help;
 	}
+
 	// Let the default WP Dashboard help stuff through on other Admin pages
 	return $contextual_help;
 }
@@ -148,7 +159,7 @@ add_filter( 'plugin_row_meta', 'ddw_gspm_plugin_links', 10, 2 );
  */
 function ddw_gspm_plugin_links( $gspm_links, $gspm_file ) {
 
-	if ( !current_user_can( 'install_plugins' ))
+	if ( !current_user_can( 'install_plugins' ) )
 		return $gspm_links;
 
 	if ( $gspm_file == GSPM_PLUGIN_BASEDIR . '/genesis-social-profiles-menu.php' ) {

@@ -1,5 +1,5 @@
-# Copyright (C) 2011 Genesis Social Profiles Menu by David Decker of deckerweb.de
-# This file is distributed under the same license as the Genesis Social Profiles Menu package.
+# Copyright (C) 2011-2012 Genesis Social Profiles Menu by David Decker of deckerweb.de & genesisthemes.de
+# This file is distributed under the same license as the Genesis Social Profiles Menu plugin package.
 msgid ""
 msgstr ""
 "Project-Id-Version: Genesis Social Profiles Menu Plugin\n"
@@ -40,7 +40,7 @@ msgstr ""
 #. translators: plugin header field 'Version'
 #: genesis-social-profiles-menu.php:0
 #@ genesis-social-profiles-menu
-msgid "1.1"
+msgid "1.2"
 msgstr ""
 
 #: genesis-social-profiles-menu.php:62
