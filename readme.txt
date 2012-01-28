@@ -63,13 +63,13 @@ Licensed under the GNU General Public License v2.0. If you alter, transform, or 
 = Scheme for the CSS Classes =
 It always goes like this: (service)-(iconset)-(size)
 
-** 1st Example: `twitter-prl-s16`**
+** 1st Example: `twitter-prl-s16` **
 
 * you could also add the suffix "-s24" for 24px size or "-s32" for 32px size
 * change `twitter` to one of the 12 included services for this icon set
 * "prl" stands for the used icon set - at the moment, there's only two sets, maybe more sets following in the future...
 
-** 2nd Example: `pinterest-sp-s32 gspm-sp`**
+** 2nd Example: `pinterest-sp-s32 gspm-sp` **
 
 * you could also add the suffix "-s24" for 24px size or "-s48" for 48px size
 * change `pinterest` to one of the 6 included services for this icon set
