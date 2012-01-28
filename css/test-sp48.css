@@ -1,0 +1,174 @@
+/**
+ * @icon layout
+ * @css-for (icon size 48px)
+ */
+#sidebar ul.menu li.facebook-sp-s48,
+#sidebar ul.menu li.feed-sp-s48,
+#sidebar ul.menu li.google-sp-s48,
+#sidebar ul.menu li.linkedin-sp-s48,
+#sidebar ul.menu li.pinterest-sp-s48,
+#sidebar ul.menu li.twitter-sp-s48,
+#sidebar-alt ul.menu li.facebook-sp-s48,
+#sidebar-alt ul.menu li.feed-sp-s48,
+#sidebar-alt ul.menu li.google-sp-s48,
+#sidebar-alt ul.menu li.linkedin-sp-s48,
+#sidebar-alt ul.menu li.pinterest-sp-s48,
+#sidebar-alt ul.menu li.twitter-sp-s48,
+#footer-widgets ul.menu li.facebook-sp-s48,
+#footer-widgets ul.menu li.feed-sp-s48,
+#footer-widgets ul.menu li.github-sp-s48,
+#footer-widgets ul.menu li.google-sp-s48,
+#footer-widgets ul.menu li.linkedin-sp-s48,
+#footer-widgets ul.menu li.pinterest-sp-s48,
+#footer-widgets ul.menu li.twitter-sp-s48 {
+	list-style-type: none !important;
+	float: left;
+	overflow: hidden;
+	display: inline;
+}
+
+#nav li.facebook-sp-s48 a,
+#nav li.feed-sp-s48 a,
+#nav li.google-sp-s48 a,
+#nav li.linkedin-sp-s48 a,
+#nav li.pinterest-sp-s48 a,
+#nav li.twitter-sp-s48 a,
+#subnav li.facebook-sp-s48 a,
+#subnav li.feed-sp-s48 a,
+#subnav li.google-sp-s48 a,
+#subnav li.linkedin-sp-s48 a,
+#subnav li.pinterest-sp-s48 a,
+#subnav li.twitter-sp-s48 a,
+#header ul.menu li.facebook-sp-s48 a,
+#header ul.menu li.feed-sp-s48 a,
+#header ul.menu li.google-sp-s48 a,
+#header ul.menu li.linkedin-sp-s48 a,
+#header ul.menu li.pinterest-sp-s48 a,
+#header ul.menu li.twitter-sp-s48 a {
+	background: transparent url(../icon-sets/sp/sp-sprite-s48.png) 0 0 no-repeat;
+	display: block;
+	padding: 0;
+	text-indent: -9999px;
+	vertical-align: middle !important;
+	width: 24px;
+	min-height: 24px !important;
+}
+
+#sidebar ul.menu li.facebook-sp-s48 a,
+#sidebar ul.menu li.feed-sp-s48 a,
+#sidebar ul.menu li.google-sp-s48 a,
+#sidebar ul.menu li.linkedin-sp-s48 a,
+#sidebar ul.menu li.pinterest-sp-s48 a,
+#sidebar ul.menu li.twitter-sp-s48 a,
+#sidebar-alt ul.menu li.facebook-sp-s48 a,
+#sidebar-alt ul.menu li.feed-sp-s48 a,
+#sidebar-alt ul.menu li.google-sp-s48 a,
+#sidebar-alt ul.menu li.linkedin-sp-s48 a,
+#sidebar-alt ul.menu li.pinterest-sp-s48 a,
+#sidebar-alt ul.menu li.twitter-sp-s48 a,
+#footer-widgets ul.menu li.facebook-sp-s48 a,
+#footer-widgets ul.menu li.feed-sp-s48 a,
+#footer-widgets ul.menu li.google-sp-s48 a,
+#footer-widgets ul.menu li.linkedin-sp-s48 a,
+#footer-widgets ul.menu li.pinterest-sp-s48 a,
+#footer-widgets ul.menu li.twitter-sp-s48 a {
+	background: transparent url(../icon-sets/sp/sp-sprite-s48.png) 0 0 no-repeat;
+	display: block;
+	padding: 0;
+	text-indent: -9999px;
+	width: 24px;
+	height: 24px;
+}
+
+#nav li.facebook-sp-s48 a:hover,
+#nav li.feed-sp-s48 a:hover,
+#nav li.google-sp-s48 a:hover,
+#nav li.linkedin-sp-s48 a:hover,
+#nav li.pinterest-sp-s48 a:hover,
+#nav li.twitter-sp-s48 a:hover,
+#subnav li.facebook-sp-s48 a:hover,
+#subnav li.feed-sp-s48 a:hover,
+#subnav li.google-sp-s48 a:hover,
+#subnav li.linkedin-sp-s48 a:hover,
+#subnav li.pinterest-sp-s48 a:hover,
+#subnav li.twitter-sp-s48 a:hover,
+#header ul.menu li.facebook-sp-s48 a:hover,
+#header ul.menu li.feed-sp-s48 a:hover,
+#header ul.menu li.google-sp-s48 a:hover,
+#header ul.menu li.linkedin-sp-s48 a:hover,
+#header ul.menu li.pinterest-sp-s48 a:hover,
+#header ul.menu li.twitter-sp-s48 a:hover,
+#sidebar ul.menu li.facebook-sp-s48 a:hover,
+#sidebar ul.menu li.feed-sp-s48 a:hover,
+#sidebar ul.menu li.google-sp-s48 a:hover,
+#sidebar ul.menu li.linkedin-sp-s48 a:hover,
+#sidebar ul.menu li.pinterest-sp-s48 a:hover,
+#sidebar ul.menu li.twitter-sp-s48 a:hover,
+#sidebar-alt ul.menu li.facebook-sp-s48 a:hover,
+#sidebar-alt ul.menu li.feed-sp-s48 a:hover,
+#sidebar-alt ul.menu li.google-sp-s48 a:hover,
+#sidebar-alt ul.menu li.linkedin-sp-s48 a:hover,
+#sidebar-alt ul.menu li.pinterest-sp-s48 a:hover,
+#sidebar-alt ul.menu li.twitter-sp-s48 a:hover,
+#footer-widgets ul.menu li.facebook-sp-s48 a:hover,
+#footer-widgets ul.menu li.feed-sp-s48 a:hover,
+#footer-widgets ul.menu li.google-sp-s48 a:hover,
+#footer-widgets ul.menu li.linkedin-sp-s48 a:hover,
+#footer-widgets ul.menu li.pinterest-sp-s48 a:hover,
+#footer-widgets ul.menu li.twitter-sp-s48 a:hover {
+	border: none;
+}
+
+#nav li.facebook-sp-s48 a,
+#subnav li.facebook-sp-s48 a,
+#header ul.menu li.facebook-sp-s48 a,
+#sidebar ul.menu li.facebook-sp-s48 a,
+#sidebar-alt ul.menu li.facebook-sp-s48 a,
+#footer-widgets ul.menu li.facebook-sp-s48 a {
+	background-position: -66px -6px;
+}
+
+#nav li.feed-sp-s48 a,
+#subnav li.feed-sp-s48 a,
+#header ul.menu li.feed-sp-s48 a,
+#sidebar ul.menu li.feed-sp-s48 a,
+#sidebar-alt ul.menu li.feed-sp-s48 a,
+#footer-widgets ul.menu li.feed-sp-s48 a {
+	background-position: -6px -6px;
+}
+
+#nav li.google-sp-s48 a,
+#subnav li.google-sp-s48 a,
+#header ul.menu li.google-sp-s48 a,
+#sidebar ul.menu li.google-sp-s48 a,
+#sidebar-alt ul.menu li.google-sp-s48 a,
+#footer-widgets ul.menu li.google-sp-s48 a {
+	background-position: -126px -6px;
+}
+
+#nav li.linkedin-sp-s48 a,
+#subnav li.linkedin-sp-s48 a,
+#header ul.menu li.linkedin-sp-s48 a,
+#sidebar ul.menu li.linkedin-sp-s48 a,
+#sidebar-alt ul.menu li.linkedin-sp-s48 a,
+#footer-widgets ul.menu li.linkedin-sp-s48 a {
+	background-position: -186px -6px;
+}
+
+#nav li.pinterest-sp-s48 a,
+#subnav li.pinterest-sp-s48 a,
+#header ul.menu li.pinterest-sp-s48 a,
+#sidebar ul.menu li.pinterest-sp-s48 a,
+#sidebar-alt ul.menu li.pinterest-sp-s48 a,
+#footer-widgets ul.menu li.pinterest-sp-s48 a {
+	background-position: -246px -6px;
+}
+
+#nav li.twitter-sp-s48 a,
+#subnav li.twitter-sp-s48 a,
+#header ul.menu li.twitter-sp-s48 a,
+#sidebar ul.menu li.twitter-sp-s48 a,
+#sidebar-alt ul.menu li.twitter-sp-s48 a,
+#footer-widgets ul.menu li.twitter-sp-s48 a {
+	background-position: -306px -6px;
+}
