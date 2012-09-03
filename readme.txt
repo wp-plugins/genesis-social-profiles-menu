@@ -1,9 +1,9 @@
 === Genesis Social Profiles Menu ===
-Contributors: daveshine
+Contributors: daveshine, deckerweb
 Donate link: http://genesisthemes.de/en/donate/
 Tags: genesis, genesiswp, genesis framework, social media, social networking, social profiles, social, icons, twitter, facebook, google plus, deckerweb
 Requires at least: 3.2
-Tested up to: 3.3.1
+Tested up to: 3.4.1
 Stable tag: 1.2
 
 This plugin adds a stylesheet for social profile icons for the WordPress custom menu - recommended for the use with Genesis Framework child themes.
@@ -45,7 +45,7 @@ Licensed under the GNU General Public License v2.0. If you alter, transform, or 
 
 = Feedback =
 * I am open for your suggestions and feedback - Thank you for using or trying out one of my plugins!
-* Drop me a line [@deckerweb](http://twitter.com/#!/deckerweb) on Twitter
+* Drop me a line [@deckerweb](http://twitter.com/deckerweb) on Twitter
 * Follow me on [my Facebook page](http://www.facebook.com/deckerweb.service)
 * Or follow me on [+David Decker](http://deckerweb.de/gplus) on Google Plus ;-)
 
